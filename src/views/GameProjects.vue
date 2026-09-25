@@ -1,9 +1,10 @@
 <template>
   <div>
-    <h1>Stuff</h1>
+    <h1>Games &amp; Engines</h1>
 
     <div style="margin-bottom: 30px;">
-      The following are some stuff I've made or heavily contributed to.
+      Games and engines I have built or contributed substantially to, from a C++ engine written
+      from scratch to team titles in C++/OpenGL and Unity.
     </div>
 
     <ProjectsList v-bind:projects="projects" />

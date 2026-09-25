@@ -3,24 +3,23 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm <strong>Theophilus Martus Goh</strong>, a Computer Science undergraduate in Real-Time
+      Interactive Simulation at Singapore Institute of Technology / DigiPen.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
+      <br />I came into the degree from a Diploma in Game Development at Nanyang Polytechnic, and
+      from two years of full-time Unreal Engine 5 and live motion capture work during National
+      Service - building virtual avatars, running live multi-performer capture, and producing
+      published video content.
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      <br />I'm looking for a <strong>2027 internship</strong> in engine, graphics, or XR /
+      simulation engineering. Feel free to
+      <router-link to="/contact">get in touch</router-link>.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <!-- TODO: copy resume.pdf into public/d/resume.pdf -->
+        <a class="download-link" href="d/resume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
         <div style="clear:both"></div>
       </div>
-    </div>
-    <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
     </div>
 
     <div style="clear:both"></div>
@@ -28,78 +27,91 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>Unreal Engine &amp; Motion Capture Technician</h3>
+      <h4>So Drama! Entertainment / SAF Music &amp; Drama Company &mdash; Feb 2022 to Feb 2024</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>
+        Designed and programmed four custom real-time virtual avatars in Unreal Engine 5, owning
+        character setup and Blueprint logic through to live deployment. Operated live motion capture
+        for three public shows, driving four simultaneous performers on Xsens suits with Live Link
+        Face morph-target facial animation, troubleshooting on air. Benchmarked Xsens, Rokoko and
+        Perception Neuron under live show conditions and standardised the team on Xsens. Produced
+        music videos and social content in UE5, and built a company-wide equipment inventory system
+        in Google Apps Script.
+      </div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">Unreal Engine 5, Blueprints, Sequencer, Live Link Face, MetaHuman, Xsens, Rokoko, Perception Neuron, Google Apps Script</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+      <h3>Production Operator</h3>
+      <h4>ST Engineering, Advanced Materials Engineering &mdash; Mar 2024 to Aug 2024</h4>
 
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div>
+        Operated and maintained automated packing machinery and performed QA inspection on 5.56mm,
+        7.62mm and .50 BMG rounds in a defence-manufacturing environment.
+      </div>
 
       <h2>Skills</h2>
 
+      <!-- TODO: these ratings are my best guess from what you told me. -->
+      <!-- Adjust them - they are your self-assessment, not mine. -->
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Languages</h3>
+        <SkillRate name="C++" :rate="5" />
+        <SkillRate name="C#" :rate="4" />
+        <SkillRate name="C" :rate="4" />
+        <SkillRate name="GLSL" :rate="3" />
+        <SkillRate name="Python" :rate="3" />
+        <SkillRate name="Java" :rate="3" />
+        <SkillRate name="JavaScript" :rate="3" />
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Engines &amp; Graphics</h3>
+        <SkillRate name="Unreal Engine 5" :rate="4" />
+        <SkillRate name="OpenGL" :rate="4" />
+        <SkillRate name="Unity" :rate="3" />
+        <SkillRate name="Blender" :rate="2" />
+        <SkillRate name="Maya" :rate="2" />
+      </div>
+
+      <div class="skill-set">
+        <h3>Virtual Production</h3>
+        <SkillRate name="Xsens" :rate="4" />
+        <SkillRate name="Live Link Face" :rate="4" />
+        <SkillRate name="Rokoko" :rate="3" />
+        <SkillRate name="Perception Neuron" :rate="3" />
+        <SkillRate name="Git" :rate="4" />
       </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>Singapore Institute of Technology / DigiPen &mdash; Sep 2024 to Apr 2028 (expected)</h3>
+      <h4>B.S. Computer Science in Real-Time Interactive Simulation</h4>
+      <div>
+        Cumulative GPA 4.02 / 5.00. Coursework includes Real-Time Rendering, Computer Graphics,
+        Modern C++ Design Patterns, Spatial Data Structures, Motion Dynamics, AI for Games,
+        Developing Immersive Applications and Data Structures.
+      </div>
 
-      <h2>Languages</h2>
-
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
-
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-
+      <h3>Nanyang Polytechnic &mdash; Apr 2017 to Apr 2021</h3>
+      <h4>Diploma in Game Development and Technology</h4>
 
       <h2>Besides...</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
+        <!-- TODO: this section is optional - make it yours or delete it entirely. -->
+        <!-- A couple of genuine interests here makes you a person rather than a keyword list. -->
+        <h3>Simulation toys</h3>
+        <div>
+          Powder Toy, Noita, and anything where complex behaviour falls out of simple rules applied
+          a few hundred thousand times a second.
+        </div>
 
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
-
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-
+        <h3>Live production</h3>
+        <div>
+          Two years backstage taught me that the interesting failures are never the ones you
+          planned for.
+        </div>
       </div>
     </div>
   </div>
@@ -158,34 +170,14 @@ h4 {
   padding-bottom: 10px;
 }
 
-.photo img {
-  height: 300px;
-  width: 300px;
-}
-
 .tech-stack {
   font-style: italic;
 }
 
-.photo {
-  margin-top: 50px;
-  text-align: center;
-}
-
 @media only screen and (min-width: 620px){
-  .paragraph {
-    float: left;
-  }
-
-  .photo {
-    float: left;
-    padding: 30px;
-    padding-left: 80px;
-  }
-
   .skill-set {
     float: left;
-    padding-right: 60px; 
+    padding-right: 60px;
   }
 }
 </style>

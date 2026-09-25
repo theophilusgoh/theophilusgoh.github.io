@@ -4,17 +4,35 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Theophilus Martus Goh</strong>, a Computer Science undergraduate in
+        <strong>Real-Time Interactive Simulation</strong> at Singapore Institute of Technology /
+        DigiPen, based in Singapore.<br/><br/>
+        I build things that run in real time. That has meant writing a
+        <router-link to="/game-projects">game engine from scratch in C++</router-link>, a
+        falling-sand simulation where the whole world is made of interacting particles, and
+        two years of <router-link to="/other-projects">live virtual production</router-link>
+        in Unreal Engine 5 - driving motion-captured avatars on stage in front of an audience,
+        where there is no second take.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">
+        The common thread is the frame budget. Whether it's a particle simulation that has to stay
+        interactive with tens of thousands of active cells, or a live show where a dropped frame is
+        visible to everyone in the room, the interesting problems all live in the gap between
+        "it works" and "it works fast enough".
+      </div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">
+        I'm <strong>looking for a 2027 internship</strong> in engine, graphics, or XR / simulation
+        engineering. You can reach me at
+        <a href="mailto:goh.theophilus@gmail.com">goh.theophilus@gmail.com</a> or
+        <router-link to="/contact">through here</router-link>, and my
+        <router-link to="/resume">resume is here</router-link>.
+      </div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar.png" alt="Photo of Theophilus" />
     </div>
 
     <div style="clear:both"></div>
@@ -33,6 +51,13 @@
   text-align: center;
 }
 
+.photo img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 @media only screen and (min-width: 620px){
   .paragraph {
     float: left;
@@ -44,5 +69,4 @@
     padding-left: 80px;
   }
 }
-
 </style>
