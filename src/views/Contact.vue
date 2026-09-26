@@ -5,7 +5,7 @@
 
     <div style="margin-bottom:40px;">
       I'm looking for a <strong>2027 internship</strong> in engine, graphics, or XR / simulation
-      engineering.<br/>Feel free to reach out about any opportunity - or just to talk about
+      engineering.<br/>Feel free to reach out about any opportunity, or just to talk about
       renderers, particle simulations or motion capture.
     </div>
 

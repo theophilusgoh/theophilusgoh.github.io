@@ -8,7 +8,7 @@
       <br />
       <br />I came into the degree from a Diploma in Game Development at Nanyang Polytechnic, and
       from two years of full-time Unreal Engine 5 and live motion capture work during National
-      Service - building virtual avatars, running live multi-performer capture, and producing
+      Service, building virtual avatars, running live multi-performer capture, and producing
       published video content.
       <br />
       <br />I'm looking for a <strong>2027 internship</strong> in engine, graphics, or XR /
@@ -16,7 +16,6 @@
       <router-link to="/contact">get in touch</router-link>.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <!-- TODO: copy resume.pdf into public/d/resume.pdf -->
         <a class="download-link" href="d/resume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a>
         <div style="clear:both"></div>
       </div>
@@ -28,11 +27,11 @@
       <h2>Work experience</h2>
 
       <h3>Unreal Engine &amp; Motion Capture Technician</h3>
-      <h4>So Drama! Entertainment / SAF Music &amp; Drama Company &mdash; Feb 2022 to Feb 2024</h4>
+      <h4>So Drama! Entertainment / SAF Music &amp; Drama Company, Feb 2022 to Feb 2024</h4>
 
       <div>
-        Designed and programmed four custom real-time virtual avatars in Unreal Engine 5, owning
-        character setup and Blueprint logic through to live deployment. Operated live motion capture
+        Built the Unreal Engine 5 setup and Blueprint logic for four commissioned virtual avatars,
+        taking them through to live deployment. Operated live motion capture
         for three public shows, driving four simultaneous performers on Xsens suits with Live Link
         Face morph-target facial animation, troubleshooting on air. Benchmarked Xsens, Rokoko and
         Perception Neuron under live show conditions and standardised the team on Xsens. Produced
@@ -43,7 +42,7 @@
       <div class="tech-stack">Unreal Engine 5, Blueprints, Sequencer, Live Link Face, MetaHuman, Xsens, Rokoko, Perception Neuron, Google Apps Script</div>
 
       <h3>Production Operator</h3>
-      <h4>ST Engineering, Advanced Materials Engineering &mdash; Mar 2024 to Aug 2024</h4>
+      <h4>ST Engineering, Advanced Materials Engineering, Mar 2024 to Aug 2024</h4>
 
       <div>
         Operated and maintained automated packing machinery and performed QA inspection on 5.56mm,
@@ -53,7 +52,7 @@
       <h2>Skills</h2>
 
       <!-- TODO: these ratings are my best guess from what you told me. -->
-      <!-- Adjust them - they are your self-assessment, not mine. -->
+      <!-- Adjust them, they are your self-assessment, not mine. -->
       <div class="skill-set">
         <h3>Languages</h3>
         <SkillRate name="C++" :rate="5" />
@@ -86,7 +85,7 @@
 
       <h2>Education</h2>
 
-      <h3>Singapore Institute of Technology / DigiPen &mdash; Sep 2024 to Apr 2028 (expected)</h3>
+      <h3>Singapore Institute of Technology / DigiPen, Sep 2024 to Apr 2028 (expected)</h3>
       <h4>B.S. Computer Science in Real-Time Interactive Simulation</h4>
       <div>
         Cumulative GPA 4.02 / 5.00. Coursework includes Real-Time Rendering, Computer Graphics,
@@ -94,12 +93,12 @@
         Developing Immersive Applications and Data Structures.
       </div>
 
-      <h3>Nanyang Polytechnic &mdash; Apr 2017 to Apr 2021</h3>
+      <h3>Nanyang Polytechnic, Apr 2017 to Apr 2021</h3>
       <h4>Diploma in Game Development and Technology</h4>
 
       <h2>Besides...</h2>
       <div>
-        <!-- TODO: this section is optional - make it yours or delete it entirely. -->
+        <!-- TODO: this section is optional, make it yours or delete it entirely. -->
         <!-- A couple of genuine interests here makes you a person rather than a keyword list. -->
         <h3>Simulation toys</h3>
         <div>

@@ -11,7 +11,7 @@
         <router-link to="/game-projects">game engine from scratch in C++</router-link>, a
         falling-sand simulation where the whole world is made of interacting particles, and
         two years of <router-link to="/other-projects">live virtual production</router-link>
-        in Unreal Engine 5 - driving motion-captured avatars on stage in front of an audience,
+        in Unreal Engine 5, driving motion-captured avatars on stage in front of an audience,
         where there is no second take.
       </div>
 

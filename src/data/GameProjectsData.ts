@@ -1,8 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
-// NOTE: replace every https://fakeimg.pl/... thumbnail with a real screenshot
 // in public/img/projects/. Animated GIFs work and are strongly preferred for
-// the engine and simulation entries - motion sells these far better than stills.
+// the engine and simulation entries, motion sells these far better than stills.
 
 export default [
 
@@ -26,7 +25,7 @@ export default [
         <strong>Entity-component system.</strong> Everything in a scene is an entity, and behaviour is
         composed by attaching components to it rather than by inheriting from a class hierarchy. Adding
         a new kind of object means combining existing components, not extending a base class and
-        rebuilding - so the set of possible objects grows without the engine growing with it.
+        rebuilding, so the set of possible objects grows without the engine growing with it.
     </div>
 
     <div class="paragraph">
@@ -39,7 +38,7 @@ export default [
 
     <div class="paragraph">
         <strong>Lua scripting.</strong> Gameplay logic runs in Lua on top of the C++ engine, so the game
-        team could write and change behaviour without a recompile - and without access to the engine
+        team could write and change behaviour without a recompile, and without access to the engine
         internals. This is the piece that made the engine genuinely usable by someone who had not
         written it: iteration went from a build cycle to a file save.
     </div>
@@ -47,7 +46,7 @@ export default [
     <div class="paragraph">
         <h3 style="font-weight:100;">Fool's Gambit</h3>
         A tarot-themed 2D fighting game built on the engine by the UXGD team, with character select,
-        versus matches and a full menu flow - all driven through the component, event and scripting
+        versus matches and a full menu flow, all driven through the component, event and scripting
         systems above.
     </div>
 
@@ -72,7 +71,7 @@ export default [
         <strong>Sand Engine</strong> is a real-time falling-sand simulation framework written in C++
         for GAM150, inspired by <a href="https://powdertoy.co.uk/" target="_blank">The Powder Toy</a>
         and <a href="https://noitagame.com/" target="_blank">Noita</a>. The entire environment is made
-        of individual particles with their own material behaviours - there is no static level geometry.
+        of individual particles with their own material behaviours, there is no static level geometry.
         Two complete games were shipped on it: <strong>Dwarf Mayhem</strong> and
         <strong>Pistol Mayhem</strong>.
     </div>
@@ -87,15 +86,15 @@ export default [
         <strong>cellular automaton</strong>: the world is a grid of cells, each holding a material, and
         every step each cell updates from simple local rules about its neighbours. Sand falls and piles
         into slopes, water flows and finds its level, fire spreads into what will burn. Because a cell
-        moves at most one step per update, those rules stay local and cheap - which is what makes a
+        moves at most one step per update, those rules stay local and cheap, which is what makes a
         world of this size simulable at all.
     </div>
 
     <div class="paragraph">
         That model breaks down for anything moving quickly. A particle with real velocity crosses many
         cells in a single step, and an update that only consults immediate neighbours will either miss
-        everything in between - the particle tunnels straight through solid terrain - or drag the whole
-        simulation down to the step size of its fastest object. So particles with physics run in a
+        everything in between, letting the particle tunnel straight through solid terrain, or drag the
+        whole simulation down to the step size of its fastest object. So particles with physics run in a
         <strong>separate system on top of the automaton</strong>, each carrying its own velocity and
         position.
     </div>
@@ -116,7 +115,7 @@ export default [
 
     <div class="paragraph">
         <h3 style="font-weight:100;">Pistol Mayhem</h3>
-        A 2D platformer shooter built on the engine - fight enemies while the terrain itself burns,
+        A 2D platformer shooter built on the engine, fight enemies while the terrain itself burns,
         floods and collapses around you. Its title screen is drawn in falling particles.
     </div>
 
@@ -135,7 +134,7 @@ export default [
     <div class="paragraph">
         <h3 style="font-weight:100;">Dwarf Mayhem: Into the Depths</h3>
         A mining game built on the engine. Because the terrain is fully simulated rather than authored,
-        digging is genuinely destructive - and what you dig into can flow back in on top of you.
+        digging is genuinely destructive, and what you dig into can flow back in on top of you.
     </div>
 
     <div class="paragraph center">
@@ -156,7 +155,7 @@ export default [
     `
     <div class="paragraph">
         <strong>Portal Mayhem</strong> is a 2D platformer shooter written in C++, built by Team EggCat
-        for GAM100 - the first team game project of the Real-Time Interactive Simulation degree.
+        for GAM100, the first team game project of the Real-Time Interactive Simulation degree.
     </div>
 
     <div class="paragraph center">
@@ -181,7 +180,7 @@ export default [
 
     <div class="paragraph">
         <strong>Directional portals with momentum preservation.</strong> Every portal has a facing
-        direction - a surface normal - so an entity's entry and exit orientations are generally
+        direction, a surface normal, so an entity's entry and exit orientations are generally
         different. That makes teleporting more than a change of position: on transit, velocity is
         transformed into the destination portal's frame and rotated onto that portal's normal, so
         momentum carries through instead of being discarded. Falling into a portal in the floor and
@@ -228,7 +227,7 @@ export default [
     <div class="paragraph">
         Features I implemented:
         <ul>
-        <li><strong>3D mouse picking</strong> - deriving a world-space ray from the mouse cursor's
+        <li><strong>3D mouse picking</strong>, deriving a world-space ray from the mouse cursor's
             screen position and solving its intersection with the ground plane to find the terrain
             point under the cursor</li>
         <li>Camera controls and camera effects</li>
@@ -311,7 +310,7 @@ export default [
     <div class="paragraph">
         Features I implemented:
         <ul>
-        <li>Player controls, including <strong>bunnyhop movement</strong> - momentum-preserving
+        <li>Player controls, including <strong>bunnyhop movement</strong>, momentum-preserving
             air strafing in the Quake/Source tradition</li>
         <li>Weapon animations and recoil</li>
         <li>Level design</li>
